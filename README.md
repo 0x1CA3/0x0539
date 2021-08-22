@@ -1,7 +1,5 @@
-# 0x0539
-Here I will post my solutions/exploits for some of the challenges on 0x0539.net
 <h1 align="center">
-	<img src="https://icons.veryicon.com/png/o/emoticon/number/duo-1.png" width="150px"><br>
+	<img src="https://lh3.googleusercontent.com/proxy/CpoUd8Vc7hVO5iuIL7QkWnlU5yt5dADWL_4vnIxil9CLnk9JokqiAJpoQcqe5jJW6doC-BgT-yi8" width="150px"><br>
     0x0539 - Here I will post my solutions/exploits for some of the challenges on 0x0539.net
 </h1>
 <p align="center">
