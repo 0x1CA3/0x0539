@@ -39,10 +39,7 @@ def main():
 	pwn.exploit()
 
 if __name__ == "__main__":
-	try:
-		main()
-	except:
-		print("[!] Error running exploit! [!]")
+	main()
 ```
 
 ## Inizializzato Pizzaria
@@ -113,7 +110,6 @@ class Pwn():
 def main():
     host = "http://challenges.0x0539.net:3002/"
     Pwn(host).exploit()
-main()
 
 if __name__ == "__main__":
     main()
