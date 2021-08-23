@@ -35,8 +35,7 @@ class Pwn():
 def main():
 	host = "challenges.0x0539.net"
 	port = 7071
-	pwn = Pwn(host, port)
-	pwn.exploit()
+	Pwn(host, port).exploit()
 
 if __name__ == "__main__":
 	main()
