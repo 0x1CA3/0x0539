@@ -1,6 +1,5 @@
 <h1 align="center">
-	<img src="![unnamed](https://user-images.githubusercontent.com/86132648/131192790-bafa5664-7f7b-46a1-94f9-886f523e8c49.png)
-" width="300px"><br>
+	<img src="https://user-images.githubusercontent.com/86132648/131192790-bafa5664-7f7b-46a1-94f9-886f523e8c49.png" width="300px"><br>
     0x0539 - Here I will post my solutions/exploits for some of the challenges on 0x0539.net
 </h1>
 <p align="center">
